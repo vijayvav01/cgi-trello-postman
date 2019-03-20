@@ -1,0 +1,10 @@
+[{
+
+	"boardName":"test3",
+        "newName":"newTest"
+},
+{
+
+	"boardName":"test2",
+	"newName":"newTest2"
+}]
