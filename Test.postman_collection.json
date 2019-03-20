@@ -25,10 +25,6 @@
 									"console.log('id of newly created board=',jsonData.id);",
 									"pm.globals.set('boardID',jsonData.id);",
 									"",
-									"//pm.test(\"Your test name\", function () {",
-									"  //  var jsonData = pm.response.json();",
-									"   // pm.expect(jsonData.name).to.eql(pm.globals.get('newman'));",
-									"//});",
 									"",
 									"pm.test(\"Content-Type is present\", function () {",
 									"    pm.response.to.have.header(\"Content-Type\");",
@@ -100,10 +96,10 @@
 							"script": {
 								"id": "a78ebe35-5ec2-4035-81d1-bcb83744d524",
 								"exec": [
-									"pm.test(\"Your test name\", function () {",
-									"   var jsonData = pm.response.json();",
-									"   pm.expect(jsonData.name).to.eql(pm.globals.get(pm.iterationData.get('newName')));",
-									"});",
+									"//pm.test(\"Your test name\", function () {",
+									"  // var jsonData = pm.response.json();",
+									"  // pm.expect(jsonData.name).to.eql(pm.globals.get(pm.iterationData.get('newName')));",
+									"///});",
 									""
 								],
 								"type": "text/javascript"
